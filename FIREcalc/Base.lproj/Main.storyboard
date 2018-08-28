@@ -24,10 +24,10 @@
                                 <gestureRecognizers/>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="lqp-Nm-O3d">
-                                <rect key="frame" x="15" y="80" width="345" height="200"/>
+                                <rect key="frame" x="15" y="80" width="345" height="160"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="bhm-ZD-5g6"/>
+                                    <constraint firstAttribute="height" constant="160" id="bhm-ZD-5g6"/>
                                 </constraints>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="Z8v-EX-AQ3" rowHeight="25" style="IBUITableViewCellStyleDefault" id="Nb3-Wc-b8W">
@@ -179,10 +179,10 @@
             </objects>
             <point key="canvasLocation" x="118" y="-587"/>
         </scene>
-        <!--View Controller-->
+        <!--When To Retire View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FIREcalc" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="WhenToRetireViewController" customModule="FIREcalc" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -345,6 +345,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="oIu-E5-I2U"/>
+        <segue reference="e63-RS-DAQ"/>
     </inferredMetricsTieBreakers>
 </document>

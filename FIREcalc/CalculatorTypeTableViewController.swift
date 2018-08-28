@@ -22,6 +22,9 @@ class CalculatorTypeTableViewController: UIViewController, UITableViewDataSource
         
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(self.handleBackgroundTapped(_:)))
         BackGroundView.addGestureRecognizer(tapGesture)
+        
+        TableView.layer.cornerRadius = 8.0
+        TableView.clipsToBounds = true
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

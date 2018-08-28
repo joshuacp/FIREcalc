@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WhenToRetireViewController: UIViewController {
 
     @IBOutlet var CurrentNetworthTextField: UITextField!
     @IBOutlet var SalaryTextField: UITextField!
