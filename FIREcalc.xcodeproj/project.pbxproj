@@ -13,6 +13,7 @@
 		6B165020212388FA000BE43A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B16501F212388FA000BE43A /* Assets.xcassets */; };
 		6B165023212388FB000BE43A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B165021212388FB000BE43A /* LaunchScreen.storyboard */; };
 		6B16502B2123D75B000BE43A /* CalculatorTypeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B16502A2123D75B000BE43A /* CalculatorTypeTableViewController.swift */; };
+		6B307C77214B13CE007774F0 /* HowMuchToSaveTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B307C76214B13CE007774F0 /* HowMuchToSaveTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6B165022212388FB000BE43A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B165024212388FB000BE43A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B16502A2123D75B000BE43A /* CalculatorTypeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorTypeTableViewController.swift; sourceTree = "<group>"; };
+		6B307C76214B13CE007774F0 /* HowMuchToSaveTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowMuchToSaveTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				6B165018212388F8000BE43A /* AppDelegate.swift */,
 				6B16501A212388F8000BE43A /* WhenToRetireViewController.swift */,
+				6B307C76214B13CE007774F0 /* HowMuchToSaveTableViewController.swift */,
 				6B16502A2123D75B000BE43A /* CalculatorTypeTableViewController.swift */,
 				6B16501C212388F8000BE43A /* Main.storyboard */,
 				6B16501F212388FA000BE43A /* Assets.xcassets */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B16501B212388F8000BE43A /* WhenToRetireViewController.swift in Sources */,
+				6B307C77214B13CE007774F0 /* HowMuchToSaveTableViewController.swift in Sources */,
 				6B16502B2123D75B000BE43A /* CalculatorTypeTableViewController.swift in Sources */,
 				6B165019212388F8000BE43A /* AppDelegate.swift in Sources */,
 			);
